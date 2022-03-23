@@ -1,0 +1,43 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Open Sans", sans-serif;
+  background: rgb(241, 241, 241);
+}
+
+.card {
+  background: #ffffff;
+  color: rgb(51, 51, 51);
+  border-radius: 30px;
+  width: 100%;
+  max-width: 77em;
+  margin: 1em;
+  /* box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.226); */
+  box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.075),
+    0 2px 2px hsl(0deg 0% 0% / 0.075), 0 4px 4px hsl(0deg 0% 0% / 0.075),
+    0 8px 8px hsl(0deg 0% 0% / 0.075), 0 16px 16px hsl(0deg 0% 0% / 0.075);
+  border: 0;
+  box-sizing: border-box;
+}
+
+.col-login {
+  width: 100%;
+  max-width: 25em;
+  height: 30em;
+  margin: 2em;
+}
+
+.col-img {
+  background-image: url(img/LOGIN-SCREEN-CITY-SKY.png);
+  border-radius: 30px;
+  background-color: #cccccc;
+  height: 600px;
+  width: 800px;
+  align-items: right;
+}
+
+.logo {
+  margin-bottom: 4em;
+}
